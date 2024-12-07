@@ -1,0 +1,115 @@
+{
+    "intents": [
+        {
+            "tags": "greetings",
+            "patterns": ["hi", "hello", "good day", "hey", "greetings", "howdy", "how's it going"],
+            "responses": ["Hello there!", "What can I do for you?", "Hey there!"]
+        },
+        {
+            "tags": "farewells",
+            "patterns": ["bye", "goodbye", "see you", "take care", "later", "farewell"],
+            "responses": ["Goodbye!", "Take care!", "See you soon!"]
+        },
+        {
+            "tags": "thanks",
+            "patterns": ["thank you", "thanks", "I appreciate it", "much obliged"],
+            "responses": ["You're welcome!", "No problem!", "Happy to help!"]
+        },
+        {
+            "tags": "help",
+            "patterns": ["help me", "I need help", "can you assist me", "I need assistance", "help"],
+            "responses": ["Sure, how can I assist?", "What do you need help with?", "I'm here to help!"]
+        },
+        {
+            "tags": "complaints",
+            "patterns": ["this isn't working", "I have a problem", "there's an issue", "I'm unhappy", "complaint"],
+            "responses": ["I'm sorry to hear that. Let me fix it.", "Can you tell me more about the problem?", "I'll do my best to resolve this!"]
+        },
+        {
+            "tags": "smalltalk",
+            "patterns": ["how are you", "what's up", "how's life", "what's going on", "how's everything"],
+            "responses": ["I'm doing great, thank you!", "All's well! How about you?", "Just here to help you!"]
+        },
+        {
+            "tags": "confirmation",
+            "patterns": ["yes", "yep", "sure", "okay", "alright"],
+            "responses": ["Great!", "Got it!", "Alright, let's proceed."]
+        },
+        {
+            "tags": "denial",
+            "patterns": ["no", "nope", "not really", "nah"],
+            "responses": ["Okay, let me know if you change your mind.", "No worries!", "Alright, feel free to ask later."]
+        },
+        {
+            "tags":"name",
+            "patterns":["whats your name","Name","hey whats your name"],
+            "responses":["My name is Lexi","Hello i am Lexi","Hello I am Logical Expert for eXchange and Interaction(LeXi)"]
+        },
+        {
+            "tags": "jokes",
+            "patterns": ["tell me a joke", "make me laugh", "say something funny", "do you know any jokes"],
+            "responses": ["Why did the scarecrow win an award? Because he was outstanding in his field!", "What do you call fake spaghetti? An impasta!", "Why don’t skeletons fight each other? They don’t have the guts."]
+        },
+        {
+            "tags": "fun_facts",
+            "patterns": ["tell me a fun fact", "do you know trivia", "say something interesting", "share a cool fact"],
+            "responses": ["Did you know octopuses have three hearts?", "Honey never spoils—it can last thousands of years!", "Bananas are berries, but strawberries aren’t!"]
+        },
+        {
+            "tags": "jokes",
+            "patterns": ["tell me a joke", "make me laugh", "say something funny", "do you know any jokes"],
+            "responses": ["Why did the scarecrow win an award? Because he was outstanding in his field!", "What do you call fake spaghetti? An impasta!", "Why don’t skeletons fight each other? They don’t have the guts."]
+        },
+        {
+            "tags": "weather",
+            "patterns": ["what’s the weather", "tell me the weather", "is it raining", "weather forecast", "what’s it like outside"],
+            "responses": ["It’s sunny and bright!", "Looks like it might rain today.", "The weather is perfect!"]
+        },
+        {
+            "tags": "movies",
+            "patterns": ["recommend a movie", "what’s a good film to watch", "suggest a movie", "any film recommendations"],
+            "responses": ["How about *Inception*? It’s mind-bending!", "You could watch *The Shawshank Redemption*—it’s a masterpiece.", "For some laughs, *The Grand Budapest Hotel* is a great pick!"]
+        },
+        {
+            "tags": "travel",
+            "patterns": ["where should I travel", "suggest a travel destination", "talk about traveling", "any travel tips"],
+            "responses": ["How about a trip to Bali? It’s beautiful!", "Paris is always a great choice for a getaway!", "Exploring your local countryside can be just as exciting!"]
+        },
+        {
+            "tags": "health",
+            "patterns": ["how to stay healthy", "give me a health tip", "suggest wellness advice", "tips for staying fit"],
+            "responses": ["Drink plenty of water and stay hydrated!", "A balanced diet and regular exercise go a long way!", "Mental health is just as important as physical health—take time for yourself!"]
+        },
+        {
+            "tags": "music",
+            "patterns": ["recommend a song", "suggest music", "talk about music", "do you like songs", "what’s a good playlist"],
+            "responses": ["Have you heard *Bohemian Rhapsody*? It’s iconic!", "Try listening to *Imagine* by John Lennon—it’s timeless.", "For something new, *Blinding Lights* by The Weeknd is great!"]
+        },
+        {
+            "tags": "space",
+            "patterns": ["talk about space", "tell me a space fact", "what’s beyond Earth", "do you like astronomy"],
+            "responses": ["Did you know that one day on Venus is longer than a year?", "The Milky Way has over 100 billion stars!", "Black holes are one of the most fascinating mysteries of space."]
+        },
+        {
+            "tags": "food",
+            "patterns": ["suggest a recipe", "what’s a good dish to try", "do you like cooking", "talk about food", "any food recommendations"],
+            "responses": ["You should try making homemade pasta—it’s fun and delicious!", "Have you ever had sushi? It’s a must-try!", "Chocolate lava cake is a crowd-pleaser dessert!"]
+        },
+        {
+            "tags": "fitness",
+            "patterns": ["whats a good workout", "fitness tips", "suggest an exercise", "how to stay active"],
+            "responses": ["A quick 15-minute HIIT workout can be super effective!", "Yoga is great for both the body and mind.", "Even a brisk walk every day can make a big difference!"]
+        },
+        {
+            "tags": "history",
+            "patterns": ["tell me a history fact", "do you like history", "talk about the past", "interesting historical events"],
+            "responses": ["Did you know the Great Wall of China is over 13,000 miles long?", "The Roman Empire lasted for over 1,000 years!", "The first Olympics were held in 776 BCE in ancient Greece."]
+        },
+        {
+            "tags": "art",
+            "patterns": ["talk about art", "do you like painting", "whats your favorite artwork", "recommend an artist"],
+            "responses": ["Van Goghs *Starry Night* is breathtaking!", "Have you seen the works of Frida Kahlo? Shes inspiring!", "Modern art can be as thought-provoking as classical pieces!"]
+        }
+    ]
+}
+
